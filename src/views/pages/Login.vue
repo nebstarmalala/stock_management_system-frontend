@@ -165,7 +165,7 @@ export default {
         .post('login')
         .then(response => {
           const { data: { token, user } } = response
-          axios.defaults.headers.common.Authorization = `Bearer ${response.token}`
+          axios.defaults.headers.common.Authorization = `Bearer ${token}`
           const userInfo = { name: user.name, email: user.email, authenticationToken: token }
           this.authenticateUser(userInfo)
           this.$router.push({ name: 'dashboard' })
