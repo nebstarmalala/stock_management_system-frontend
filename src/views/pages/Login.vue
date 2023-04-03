@@ -36,12 +36,10 @@
                   placeholder="john@example.com"
                   :rules="emailRules"
                   autocomplete="email"
+                  :error="form.errors.has('email')"
+                  :error-messages="form.errors.get('email')"
                   required
                 ></v-text-field>
-                <small
-                  v-show="form.errors.has('email')"
-                  class="validation-error"
-                >{{ form.errors.get('email') }}</small>
               </v-col>
               <v-col cols="12">
                 <v-text-field
@@ -53,15 +51,11 @@
                   :append-icon="isPasswordVisible ? icons.mdiEyeOffOutline : icons.mdiEyeOutline"
                   :rules="passwordRules"
                   autocomplete="current-password"
+                  :error="form.errors.has('password')"
+                  :error-messages="form.errors.get('password')"
                   required
                   @click:append="isPasswordVisible = !isPasswordVisible"
                 ></v-text-field>
-                <small
-                  v-show="form.errors.has('password')"
-                  class="validation-error"
-                >{{
-                  form.errors.get('password')
-                }}</small>
               </v-col>
             </v-row>
 
