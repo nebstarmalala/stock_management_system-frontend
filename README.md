@@ -174,4 +174,3 @@ If you are looking for more free templates like Materio - Vuetify VueJS Free Adm
 - Facebook : [https://www.facebook.com/ThemeSelections/](https://www.facebook.com/ThemeSelections/)
 - Pintrest : [https://pinterest.com/themeselect/](https://pinterest.com/themeselect/)
 - Instagram : [https://www.instagram.com/themeselect_official/](https://www.instagram.com/themeselect_official/)
-# stock_management_system-frontend
