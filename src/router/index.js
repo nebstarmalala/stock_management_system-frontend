@@ -18,22 +18,6 @@ const routes = [
     },
   },
   {
-    path: '/products',
-    name: 'products',
-    component: () => import('@/views/pages/Products.vue'),
-    meta: {
-      requiresAuth: true,
-    },
-  },
-  // {
-  //   path: '/products/:id',
-  //   name: 'product-details',
-  //   component: () => import('@/views/pages/ProductDetails.vue'),
-  //   meta: {
-  //     requiresAuth: true,
-  //   },
-  // },
-  {
     path: '/account-settings',
     name: 'pages-account-settings',
     component: () => import('@/views/pages/account-settings/AccountSettings.vue'),
