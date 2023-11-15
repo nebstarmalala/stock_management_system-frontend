@@ -42,6 +42,11 @@
         :to="{ name: 'dashboard' }"
         :icon="icons.mdiHomeOutline"
       ></nav-menu-link>
+      <nav-menu-link
+        title="Products"
+        :to="{ name: 'products' }"
+        :icon="icons.mdiHomeOutline"
+      ></nav-menu-link>
     </v-list>
   </v-navigation-drawer>
 </template>
