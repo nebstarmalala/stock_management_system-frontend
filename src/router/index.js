@@ -18,6 +18,14 @@ const routes = [
     },
   },
   {
+    path: '/suppliers',
+    name: 'suppliers',
+    component: () => import('@/views/pages/Suppliers.vue'),
+    meta: {
+      requiresAuth: true,
+    },
+  },
+  {
     path: '/products',
     name: 'products',
     component: () => import('@/views/pages/Products.vue'),
