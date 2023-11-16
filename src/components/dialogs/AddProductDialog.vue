@@ -47,7 +47,7 @@
                     <v-text-field
                       v-model="form.price"
                       label="price"
-                      placeholder="Enter publication year"
+                      placeholder="Enter price"
                       :rules="[v => !!v || 'price is required']"
                       :error="form.errors.has('price')"
                       :error-messages="form.errors.get('price')"
@@ -126,11 +126,11 @@
     },
     data: () => ({
       form: new Form({
-        title: '',
-        isbn: '',
-        publication_year: '',
-        category_id: '',
-        total_copies: '',
+        name: '',
+        description: '',
+        price: '',
+        supplier_id: '',
+        upc_code: '',
         id: '',
       }),
       action: 'Save',
