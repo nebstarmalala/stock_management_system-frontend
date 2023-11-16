@@ -43,6 +43,11 @@
         :icon="icons.mdiHomeOutline"
       ></nav-menu-link>
       <nav-menu-link
+        title="Suppliers"
+        :to="{ name: 'suppliers' }"
+        :icon="icons.mdiHomeOutline"
+      ></nav-menu-link>
+      <nav-menu-link
         title="Products"
         :to="{ name: 'products' }"
         :icon="icons.mdiHomeOutline"
