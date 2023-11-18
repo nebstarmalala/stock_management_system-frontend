@@ -57,6 +57,11 @@
         :to="{ name: 'shops' }"
         :icon="icons.mdiHomeOutline"
       ></nav-menu-link>
+      <nav-menu-link
+        title="Customers"
+        :to="{ name: 'customers' }"
+        :icon="icons.mdiHomeOutline"
+      ></nav-menu-link>
     </v-list>
   </v-navigation-drawer>
 </template>
