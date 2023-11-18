@@ -50,6 +50,14 @@ const routes = [
     },
   },
   {
+    path: '/shop/:id',
+    name: 'shop-inventory',
+    component: () => import('@/views/pages/Inventories.vue'),
+    meta: {
+      requiresAuth: true,
+    },
+  },
+  {
     path: '/account-settings',
     name: 'pages-account-settings',
     component: () => import('@/views/pages/account-settings/AccountSettings.vue'),
