@@ -90,6 +90,7 @@
             :footer-props="footerProps"
             show-select
             class="clickable-data-table"
+            @click:row="inventory"
           >
             <template v-slot:item.category="{ item }">
               {{ item.category.name }}
@@ -364,6 +365,9 @@
       },
       onSearchFilterChange(filter) {
         this.searchColumn = filter
+      },
+      inventory(shop) {
+        this.$router.push({ name: 'shop-inventory', params: { id: shop.id } })
       },
     },
   }
