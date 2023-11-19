@@ -243,16 +243,20 @@
         searchColumn: 'title',
         searchFilters: [
           {
-            text: 'Name',
-            value: 'name',
+            text: 'Product',
+            value: 'product.name',
           },
           {
-            text: 'UPC Code',
-            value: 'upc_code',
+            text: 'Source',
+            value: 'source.name',
           },
           {
-            text: 'Price',
-            value: 'price',
+            text: 'Destination',
+            value: 'destination.name',
+          },
+          {
+            text: 'Status',
+            value: 'status',
           },
         ],
         icons: {
