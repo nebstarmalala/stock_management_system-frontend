@@ -66,6 +66,14 @@ const routes = [
     },
   },
   {
+    path: '/stock-transfers',
+    name: 'transfers',
+    component: () => import('@/views/pages/Transfers.vue'),
+    meta: {
+      requiresAuth: true,
+    },
+  },
+  {
     path: '/account-settings',
     name: 'pages-account-settings',
     component: () => import('@/views/pages/account-settings/AccountSettings.vue'),
