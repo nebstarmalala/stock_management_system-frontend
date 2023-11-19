@@ -106,7 +106,7 @@ export default {
     logout() {
       this.$nprogress.start()
       axios
-        .get('logout')
+        .post('logout')
         .finally(() => {
           this.$nprogress.done()
           this.clearUser()
