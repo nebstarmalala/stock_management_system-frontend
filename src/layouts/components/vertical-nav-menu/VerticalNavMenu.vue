@@ -67,6 +67,11 @@
         :to="{ name: 'transfers' }"
         :icon="icons.mdiHomeOutline"
       ></nav-menu-link>
+      <nav-menu-link
+        title="Orders"
+        :to="{ name: 'orders' }"
+        :icon="icons.mdiHomeOutline"
+      ></nav-menu-link>
     </v-list>
   </v-navigation-drawer>
 </template>
