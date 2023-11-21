@@ -82,6 +82,14 @@ const routes = [
     },
   },
   {
+    path: '/purchases',
+    name: 'purchases',
+    component: () => import('@/views/pages/Purchases.vue'),
+    meta: {
+      requiresAuth: true,
+    },
+  },
+  {
     path: '/account-settings',
     name: 'pages-account-settings',
     component: () => import('@/views/pages/account-settings/AccountSettings.vue'),
