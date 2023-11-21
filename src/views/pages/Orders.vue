@@ -234,6 +234,11 @@
             text: 'Quantity',
             value: 'quantity',
           },
+
+          {
+            text: 'Order Status',
+            value: 'order_status',
+          },
           { text: 'Actions', value: 'actions', sortable: false },
         ],
         searchColumn: 'title',
