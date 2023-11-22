@@ -218,6 +218,10 @@
         selected: [],
         options: {},
         headers: [
+        {
+            text: 'Order Number',
+            value: 'order_number',
+          },
           {
             text: 'Supplier Name',
             value: 'supplier.name',
