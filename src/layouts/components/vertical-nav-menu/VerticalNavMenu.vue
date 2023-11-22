@@ -77,6 +77,11 @@
         :to="{ name: 'purchases' }"
         :icon="icons.mdiHomeOutline"
       ></nav-menu-link>
+      <nav-menu-link
+        title="Sales"
+        :to="{ name: 'sales' }"
+        :icon="icons.mdiHomeOutline"
+      ></nav-menu-link>
     </v-list>
   </v-navigation-drawer>
 </template>
