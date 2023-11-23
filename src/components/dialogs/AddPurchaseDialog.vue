@@ -26,7 +26,7 @@
                       v-model="form.shop_id"
                       label="Shop"
                       :items="shops"
-                      item-text="shop_name"
+                      item-text="name"
                       item-value="id"
                       placeholder="Select a shop"
                       outlined
@@ -38,7 +38,7 @@
                       v-model="form.product_id"
                       label="Product"
                       :items="products"
-                      item-text="product_name"
+                      item-text="name"
                       item-value="id"
                       placeholder="Select a product"
                       outlined
