@@ -24,7 +24,7 @@
                       v-model="form.product_id"
                       label="Product"
                       :items="products"
-                      item-text="product_name"
+                      item-text="name"
                       item-value="id"
                       placeholder="Select a product"
                       outlined
