@@ -112,6 +112,11 @@ const routes = [
     },
   },
   {
+    path: '/settings',
+    name: 'settings',
+    component: () => import('@/views/pages/settings/Settings.vue'),
+  },
+  {
     path: '/register',
     name: 'register',
     component: () => import('@/views/pages/Register.vue'),
