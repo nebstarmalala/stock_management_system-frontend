@@ -83,6 +83,12 @@
         :icon="icons.mdiHomeOutline"
       ></nav-menu-link>
     </v-list>
+    <nav-menu-link
+      title="Settings"
+      :to="{ name: 'settings' }"
+      :icon="icons.mdiCog"
+      class="settings-menu"
+    ></nav-menu-link>
   </v-navigation-drawer>
 </template>
 
