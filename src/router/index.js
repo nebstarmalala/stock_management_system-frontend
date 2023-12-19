@@ -98,6 +98,14 @@ const routes = [
     },
   },
   {
+    path: '/assignments',
+    name: 'assignments',
+    component: () => import('@/views/pages/Assignments.vue'),
+    meta: {
+      requiresAuth: true,
+    },
+  },
+  {
     path: '/account-settings',
     name: 'pages-account-settings',
     component: () => import('@/views/pages/account-settings/AccountSettings.vue'),
