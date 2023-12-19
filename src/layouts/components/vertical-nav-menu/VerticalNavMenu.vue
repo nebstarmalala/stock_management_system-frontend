@@ -82,6 +82,11 @@
         :to="{ name: 'sales' }"
         :icon="icons.mdiHomeOutline"
       ></nav-menu-link>
+      <nav-menu-link
+        title="Shop Assignments"
+        :to="{ name: 'assignments' }"
+        :icon="icons.mdiHomeOutline"
+      ></nav-menu-link>
     </v-list>
     <nav-menu-link
       title="Settings"
